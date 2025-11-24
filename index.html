@@ -20,8 +20,46 @@
     --card: #23272a;
     --accent: #00ff88;
     --accent-2: #00ffff;
-    --muted: #bbb;
-    --white: #fff;
+    --muted: #b0b3b8;
+    --white: #f7f7f7;
+  }
+  .dark-mode body, .dark-mode html {
+    background: var(--bg) !important;
+    color: var(--white) !important;
+  }
+  .dark-mode .card, .dark-mode .profile-wrap, .dark-mode .container {
+    background: var(--card) !important;
+    color: var(--white) !important;
+    border-color: #333 !important;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5) !important;
+  }
+  .dark-mode .btn {
+    background: #23272a !important;
+    color: var(--white) !important;
+    border: 1px solid #444 !important;
+  }
+  .dark-mode .btn:hover {
+    box-shadow: 0 8px 24px rgba(0,255,136,0.12) !important;
+  }
+  .dark-mode .highlight, .dark-mode .project {
+    background: #23272a !important;
+    color: var(--muted) !important;
+    border: 1px solid #333 !important;
+  }
+  .dark-mode .skill-pill {
+    background: #181a1b !important;
+    color: var(--muted) !important;
+    border: 1px solid #333 !important;
+  }
+  .dark-mode .tag {
+    background: #23272a !important;
+    color: var(--muted) !important;
+    border: 1px solid #333 !important;
+  }
+  .dark-mode #theme-toggle {
+    background: #23272a !important;
+    color: var(--white) !important;
+    border: 1px solid #444 !important;
   }
   html,body{height:100%;margin:0;background:var(--bg);color:var(--white);font-family:Inter,system-ui,Segoe UI,Arial;}
   .container{max-width:var(--max-width);margin:0 auto;padding:24px;}
